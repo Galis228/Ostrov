@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/widget_bg" android:orientation="horizontal" android:padding="6dp">
+    <LinearLayout android:id="@+id/w_toggle" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+        android:layout_margin="4dp" android:background="@drawable/widget_btn" android:gravity="center" android:orientation="vertical">
+        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_w_power" android:importantForAccessibility="no"/>
+        <TextView android:id="@+id/w_toggle_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"
+            android:text="Остров" android:textSize="11sp" android:maxLines="1" android:textColor="@android:color/system_accent1_900"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/w_timer" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+        android:layout_margin="4dp" android:background="@drawable/widget_btn" android:gravity="center" android:orientation="vertical">
+        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_w_timer" android:importantForAccessibility="no"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"
+            android:text="5 мин" android:textSize="11sp" android:maxLines="1" android:textColor="@android:color/system_accent1_900"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/w_stopwatch" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+        android:layout_margin="4dp" android:background="@drawable/widget_btn" android:gravity="center" android:orientation="vertical">
+        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_w_play" android:importantForAccessibility="no"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"
+            android:text="Секундомер" android:textSize="11sp" android:maxLines="1" android:textColor="@android:color/system_accent1_900"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/w_torch" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"
+        android:layout_margin="4dp" android:background="@drawable/widget_btn" android:gravity="center" android:orientation="vertical">
+        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_w_torch" android:importantForAccessibility="no"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"
+            android:text="Фонарик" android:textSize="11sp" android:maxLines="1" android:textColor="@android:color/system_accent1_900"/>
+    </LinearLayout>
+</LinearLayout>

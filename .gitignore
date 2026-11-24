@@ -1,0 +1,16 @@
+# Сборка и кэши
+build/
+app/build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Локальное и секретное — не публиковать
+local.properties
+*.jks
+*.keystore
+keystore.properties

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Island</string>
+    <string name="accessibility_summary">Shows the island around the front camera</string>
+    <string name="accessibility_description">“Island” uses accessibility to draw an interactive panel around the front camera over the status bar and to hide it when the shade is open. It looks at the position of system windows and the label of a tapped button — only to notice “Copy” and show “Copied”. On your gesture it can open the shade or take a screenshot. Screen text is never stored or sent anywhere.</string>
+    <string name="sc_toggle">Toggle island</string>
+    <string name="sc_calibrate">Calibration</string>
+    <string name="sc_presets">Presets</string>
+    <string name="widget_desc">Island: toggle, timer, stopwatch, flashlight</string>
+</resources>

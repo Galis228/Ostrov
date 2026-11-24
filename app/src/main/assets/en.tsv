@@ -1,0 +1,821 @@
+ · активен	 · active
+ Ко всем	 To all
++ Сохранить текущий	+ Save current
++1 мин	+1 min
+25 мин	25 min
+5 мин	5 min
+7 мин	7 min
+Android выключил сервис. Нажмите, чтобы включить снова.	Android stopped the service. Tap to turn it back on.
+Android разрешает рисовать поверх статус-бара только сервисам специальных возможностей. Остров смотрит на положение окон и подпись нажатой кнопки — ничего не сохраняет и никуда не отправляет.	Android only lets accessibility services draw over the status bar. Island looks at window positions and the label of a tapped button — it stores nothing and sends nothing anywhere.
+Bluetooth вкл	Bluetooth on
+Bluetooth выкл	Bluetooth off
+Google Maps: поворот, расстояние, прибытие	Google Maps: turn, distance, arrival
+Live Update со счётом игры	Live Update with the game score
+M — цвета Material You, App — оттенок открытого приложения, «Обои» — палитра ваших обоев (меняется вместе с ними).	M — Material You colors, App — tint of the open app, “Wallpaper” — your wallpaper palette (changes with it).
+Material Emphasized, без отскока	Material Emphasized, no bounce
+Monet: из ваших обоев	Monet: from your wallpaper
+Pixel распознал песню вокруг	Pixel recognized a song nearby
+QR-код темы	Theme QR code
+Quick Share и обмен поблизости	Quick Share and Nearby
+VPN отключён	VPN disconnected
+VPN подключён	VPN connected
+Wi‑Fi отключён	Wi‑Fi disconnected
+Wi‑Fi подключён	Wi‑Fi connected
+«Широкая»	“Wide”
+Авто: из обложки	Auto: from album art
+Авто: фирменный цвет события	Auto: event color
+Автоматически	Automatic
+Анимация иконки	Icon animation
+Анимация	Animation
+Анимируется, пока остров раскрыт (до минуты) и 8 секунд после смены события, — батарею не тратит.	Animates while the island is expanded (up to a minute) and for 8 seconds after an event changes — no battery drain.
+Арка	Arch
+Ассистент	Assistant
+Батарея заполнена до 100%	Battery charged to 100%
+Батарея	Battery
+Бегущая строка	Marquee
+Без анимации	No animation
+Без всплывашек и вибрации, кроме заряда	No pop-ups or vibration except battery
+Без звука	Silent
+Без ограничений батареи	Unrestricted battery
+Без фона	No background
+Беззвучный режим	Silent mode
+Безопасность	Security
+Беспроводная зарядка	Wireless charging
+Беспроводная	Wireless
+Биткоин	Bitcoin
+Большая	Large
+Больше	More
+Будильник звонит	Alarm ringing
+Будильник	Alarm
+Быстро	Quick
+Быстрые действия	Quick actions
+В альбомной ориентации	In landscape
+В копию входят настройки, профили и сценарии. В окне сохранения выберите Google Диск — копия будет в облаке.	The backup includes settings, profiles and routines. Pick Google Drive in the save dialog to keep it in the cloud.
+В отчёт попадут: модель телефона, версия Android, состояние сервисов, журнал событий, настройки и лог самого приложения. Вы сами выбираете, куда его отправить.	The report includes phone model, Android version, service status, event log, settings and the app’s own log. You choose where to send it.
+В покое остров почти не виден	Almost invisible when idle
+В полноэкранном режиме	In fullscreen
+Ваша тема	Your theme
+Вернуть к камере	Back to camera
+Верх	Top
+Взрыв	Burst
+Вибрация при касаниях	Haptics on touch
+Вибрация	Vibrate
+Вид → Анимация	Look → Animation
+Вид → Размер	Look → Size
+Вид → Фон	Look → Background
+Вид → Эффекты	Look → Effects
+Вид	Look
+Видео, игры	Videos, games
+Вкл	On
+Включать автоповорот из острова.	Turn on auto-rotate from the island.
+Включить звук	Turn sound on
+Включить музыку	Play music
+Включить фонарик	Turn flashlight on
+Включить	Turn on
+Включён режим экономии	Battery Saver is on
+Включён	On
+Во весь экран	Full width
+Волна	Wave
+Вперёд	Forward
+Вращение формы	Shape spin
+Время вышло	Time’s up
+Время	Time
+Вручную	Manual
+Вс	Sun
+Все радиомодули выключены	All radios are off
+Все события списком	All events as a list
+Все события	All events
+Все	All
+Всем: 	All: 
+Всплывашка	Pop-up
+Всплывашки	Pop-ups
+Всплытие	Pop
+Вспыхивать и при разблокированном экране	Also glow when unlocked
+Вставить тему	Paste theme
+Встреча скоро	Meeting soon
+Вт	Tue
+Вторая активность — кружком рядом	Second activity as a bubble
+Второй цвет	Second color
+Входящий звонок	Incoming call
+Входящий	Incoming
+Выберите стиль	Choose a style
+Выбрать…	Choose…
+Выезд	Slide
+Выкл	Off
+Выключен	Off
+Выключить фонарик	Turn flashlight off
+Выключить	Turn off
+Выравнивание	Alignment
+Высота	Height
+Главная	Home
+Голосовое · 	Voice message · 
+Голосовые из Telegram, WhatsApp, Viber	Voice messages from Telegram, WhatsApp, Viber
+Голосовые	Voice messages
+Готово	Done
+Градиент	Gradient
+Гроза	Thunderstorm
+Громкость медиа	Media volume
+Громкость	Volume
+Далее	Next
+Данные	Data
+Две пилюли	Two pills
+Двойное нажатие по пустой пилюле	Double-tap the empty pill
+Двойное	Double tap
+Двухтон	Two-tone
+День и ночь	Day and night
+Диагностика	Diagnostics
+Диагональ	Diagonal
+Динамик	Speaker
+Для длинных названий	For long titles
+Для каждого приложения: показывать ли его на острове (уведомления, живые активности, музыка), свой цвет и своя иконка. Список пополняется по мере прихода уведомлений.	For each app: whether to show it on the island (notifications, live activities, music), its own color and icon. The list grows as notifications arrive.
+Для погоды утром (примерное).	For morning weather (approximate).
+До 100% · 	To 100% · 
+До полной ≈ 	Until full ≈ 
+До	To
+Добавить	Add
+Дождь скоро, сильная жара или мороз	Rain soon, extreme heat or frost
+Дождь через 15 мин	Rain in 15 min
+Дождь через 30 мин	Rain in 30 min
+Дождь	Rain
+Доллар → гривна	Dollar → hryvnia
+Доллар → евро	Dollar → euro
+Доставка и такси	Delivery and taxi
+Доступ к уведомлениям нужен для музыки, звонков, навигации, таймеров и Live Updates. Уведомления от самого острова — чтобы сообщить, если система его остановит.	Notification access is needed for music, calls, navigation, timers and Live Updates. Island’s own notifications let it tell you if the system stops it.
+Доступ к уведомлениям	Notification access
+Доступ	Access
+Другое	Other
+Евро → гривна	Euro → hryvnia
+Если — то	If — then
+Если	If
+Желе	Jelly
+Жесты музыки	Music gestures
+Жесты пустой пилюли — в «Жестах»: по умолчанию двойное нажатие включает фонарик, свайп вниз открывает шторку, вверх — прячет остров на 10 минут.	Empty-pill gestures are in “Gestures”: by default double tap toggles the flashlight, swipe down opens the shade, swipe up hides the island for 10 minutes.
+Жесты	Gestures
+Жесты, сценарии «если — то» и профили — во вкладке «Функции».	Gestures, “if — then” routines and profiles are in the “Features” tab.
+Живая пилюля вокруг фронтальной камеры: музыка, звонки, навигация, таймеры, зарядка и десятки системных событий — в стиле Material 3.	A live pill around the front camera: music, calls, navigation, timers, charging and dozens of system events — in Material 3 style.
+Живая, с лёгким отскоком	Lively, with a slight bounce
+Живой фон	Live background
+Жизнь	Life
+Жирный	Bold
+Журнал	Log
+За 7 дней	Last 7 days
+За работу!	Back to work!
+Завершить	End
+Загрузка	Download
+Загрузки	Downloads
+Закрыть	Close
+Заливка фона	Background fill
+Заливка	Filled
+Залитые	Filled
+Занят	In use
+Занята	In use
+Запись экрана и диктофон	Screen and voice recording
+Запись экрана	Screen recording
+Запись	Recording
+Запустить секундомер	Start stopwatch
+Запустить таймер	Start timer
+Заряд	Battery
+Зарядка началась	Charging started
+Зарядка остановлена	Charging stopped
+Зарядка	Charging
+Заряжается	Charging
+Заряжено	Charged
+Защищённое соединение	Secure connection
+Звонки	Calls
+Звонки, будильник и музыка ночью показываются как обычно.	Calls, alarms and music still show at night as usual.
+Звонок	Call
+Звук и экран	Sound and display
+Звук	Sound
+Звуки	Sounds
+Здесь настройка сразу меняется у всех событий. Потом любое событие можно подправить отдельно в его редакторе.	Settings here change all events at once. You can fine-tune any event later in its editor.
+Здесь появится статистика, когда остров покажет первые события.	Statistics will appear once the island shows its first events.
+Злотый → гривна	Zloty → hryvnia
+Знать, что происходит	Know what’s happening
+Значение + кольцо	Value + ring
+Значение	Value
+Идёт запись	Recording
+Идёт	Running
+Из буфера	From clipboard
+Из камеры	From camera
+Из размытия	From blur
+Из уведомления	From notification
+Изменение настроек	Modify settings
+Иконка + текст	Icon + text
+Иконка	Icon
+Иконка: 	Icon: 
+Иконки и текст	Icons and text
+Импорт	Import
+Имя и заряд, если доступен	Name and battery if available
+Имя, длительность, кнопки	Name, duration, buttons
+Интернет пропал совсем	Internet is completely gone
+Интернет пропал	Internet lost
+Интернет снова доступен	Internet is back
+Интернет	Internet
+Исправить	Fix
+К камере	To camera
+К краям	To edges
+Как в системе	System default
+Как пилюля	Same as pill
+Как тема системы	Follow system theme
+Как часть камеры	Part of the camera
+Календарь	Calendar
+Калибровка выреза	Cutout calibration
+Калибровка	Calibration
+Камера используется	Camera in use
+Камера	Camera
+Капля	Drop
+Касания	Touch
+Каталог	Catalog
+Классика	Classic
+Клевер	Clover
+Кнопка автоповорота, когда телефон боком	Auto-rotate button when the phone is sideways
+Кнопка выключения и яркость	Off button and brightness
+Кнопки «Отложить» и «Выключить»	“Snooze” and “Dismiss” buttons
+Кнопки	Buttons
+Кнопки: 	Buttons: 
+Когда нажимаете «Копировать»	When you tap “Copy”
+Код скопирован	Code copied
+Кольцо	Ring
+Компактная	Compact
+Контур	Outlined
+Копировать	Copy
+Короткое уведомление	Short notice
+Красная рамка вокруг окна оверлея	Red frame around the overlay window
+Красное кольцо на экране должно ровно обнимать камеру. Остров строится от него.	The red ring on screen should hug the camera exactly. The island is built from it.
+Краткий показ входящих уведомлений	Brief preview of incoming notifications
+Круг	Circle
+Круглый	Round
+Крупное значение	Large value
+Крупный	Large
+Курс	Rate
+Курс, шаги, время в покое	Rate, steps, time when idle
+Курьер в пути	Courier on the way
+Линия	Line
+Макет	Layout
+Маленькая	Small
+Малооблачно	Partly cloudy
+Мгновенно	Instant
+Медиа	Media
+Меньше	Less
+Местоположение	Location
+Мигание	Blink
+Микрофон используется	Microphone in use
+Микрофон	Microphone
+Мини-превью снимка экрана	Screenshot thumbnail
+Минимал	Minimal
+Минимальная ширина из Вид → Размер. Длинный текст может обрезаться.	Minimum width from Look → Size. Long text may be cut off.
+Минимум	Minimum
+Минуты	Minutes
+Мобильная сеть	Mobile network
+Мобильный	Mobile
+Модуль включён	Radio on
+Модуль выключен	Radio off
+Моно: цвет текста острова	Mono: island text color
+Музыка и активности	Music and activities
+Музыка	Music
+Музыка, звонки, навигация, таймеры, Live Updates.	Music, calls, navigation, timers, Live Updates.
+Музыка, звонки, навигация, таймеры.	Music, calls, navigation, timers.
+Мягкая вспышка цвета приложения	Soft flash in the app’s color
+На паузе	Paused
+На полке	On the shelf
+Навигация	Navigation
+Навигация, доставка, такси	Navigation, delivery, taxi
+Нажатие	Tap
+Нажмите, чтобы включить автоповорот	Tap to turn on auto-rotate
+Нажмите, чтобы открыть	Tap to open
+Назад	Back
+Название приложения у камеры	App name next to the camera
+Название профиля	Profile name
+Название	Title
+Найдено	Found
+Найти настройку или событие	Find a setting or event
+Например, «Работа»	E.g. “Work”
+Настроение	Mood
+Настройка займёт минуту.	Setup takes a minute.
+Настройки загружены	Settings loaded
+Настройки сохранены	Settings saved
+Наушники отключены	Headphones disconnected
+Наушники подключены	Headphones connected
+Наушники	Headphones
+Начать	Start
+Не беспокоить вкл	Do Not Disturb on
+Не беспокоить выкл	Do Not Disturb off
+Не беспокоить	Do Not Disturb
+Не похоже на код темы	Doesn’t look like a theme code
+Не только на блокировке	Not only on the lock screen
+Не удалось прочитать файл	Couldn’t read the file
+Необязательно: заряд Bluetooth-наушников.	Optional: Bluetooth headphone battery.
+Неон	Neon
+Непрозрачность	Opacity
+Нет доступа к уведомлениям	No notification access
+Нет разрешений — нажмите, чтобы выдать	Permissions missing — tap to grant
+Нет сети	No network
+Нет	None
+Низкий заряд	Low battery
+Ничего не найдено	Nothing found
+Ничего	Nothing
+Новый сценарий	New routine
+Ночной режим	Night mode
+Ночь	Night
+Нужно внимание	Needs attention
+Нужно разрешение «Физическая активность» (Система → Доступ).	Needs the “Physical activity” permission (System → Access).
+Оба сервиса работают	Both services are running
+Обводка	Outline
+Облачко	Puffy
+Обложка	Album art
+Обложка, эквалайзер, управление	Album art, equalizer, controls
+Обновить активный	Update active
+Обновляется раз в 30 минут: open.er-api.com для валют, CoinGecko для криптовалют.	Updates every 30 minutes: open.er-api.com for currencies, CoinGecko for crypto.
+Обои	Wallpaper
+Оборот	Spin
+Общение	Social
+Обычный режим звонка	Normal ringer mode
+Обычный	Regular
+Окно	Window
+Округлая	Rounded
+Особые жесты	Special gestures
+Острая	Sharp
+Остров 0.9.3 · плитка для быстрых настроек есть в списке плиток шторки, виджет — в списке виджетов	Island 0.9.3 · the Quick Settings tile is in the shade’s tile list, the widget is in the widget list
+Остров виден всегда, даже без событий	Island is always visible, even without events
+Остров включён	Island is on
+Остров выключен	Island is off
+Остров для Pixel	Island for Pixel
+Остров остановлен	Island stopped
+Остров работает	Island is running
+Остров скрыт на 10 минут — показать	Island hidden for 10 minutes — show
+Остров	Island
+Остров: отчёт об ошибке	Island: bug report
+Ответить	Reply
+Ответ…	Reply…
+Отклонить	Decline
+Отключено	Disconnected
+Отключены	Disconnected
+Отключён	Disconnected
+Открыть «О приложении»	Open “App info”
+Открыть полку: «Быстрые действия → Полка» или жест (по умолчанию — удержание пустой пилюли).	Open the shelf: “Quick actions → Shelf” or a gesture (long-press the empty pill by default).
+Открыть приложение	Open app
+Открыть шторку	Open shade
+Отложить	Snooze
+Отмена	Cancel
+Отменить	Undo
+Отправить отчёт об ошибке	Send bug report
+Отправить отчёт	Send report
+Отправить	Send
+Отпустите здесь	Drop here
+Отступ от краёв	Edge margin
+Отсчёт до встреч.	Countdown to meetings.
+Отсчёт за 15 минут до события календаря	Countdown 15 minutes before a calendar event
+Отсчёт за 30 минут до будильника	Countdown 30 minutes before the alarm
+Оттенок	Tint
+Отчёт об ошибке	Bug report
+Отчёт	Report
+Очень быстрая, почти без отскока	Very fast, almost no bounce
+Очистить	Clear
+Память приложения	App memory
+Пара жестов	A few gestures
+Пасмурно	Overcast
+Пауза / играть	Pause / play
+Пауза	Pause
+Переворот	Flip
+Передача файлов	File transfer
+Перейти	Go to
+Переключатель серый?	Switch greyed out?
+Переливы	Shimmer
+Перерисовка острова	Island redraws
+Перерыв	Break
+Перетащите текст или ссылку на остров	Drag text or a link onto the island
+Перетащите текст, ссылку или файл на остров	Drag text, a link or a file onto the island
+Перетащить текст на остров	Drag text onto the island
+Перетекание	Morph
+Печенье	Cookie
+Пиксель	Pixel
+Пилюля с событием	Pill with an event
+Пилюля	Pill
+Плавная	Smooth
+Платежи	Payments
+Плеер	Player
+Пн	Mon
+По вертикали	Vertical
+По горизонтали	Horizontal
+По данным системы	From system data
+По расписанию	On schedule
+По содержимому	Fit content
+По центру	Centered
+Поведение	Behavior
+Повернуть экран?	Rotate screen?
+Поворот экрана	Screen rotation
+Погода утром	Morning weather
+Погода	Weather
+Погода: предупреждения	Weather alerts
+Поделиться темой	Share theme
+Поделиться	Share
+Подключение к сети	Network connected
+Подключено к питанию	Plugged in
+Подключено	Connected
+Подключены	Connected
+Подключён	Connected
+Подложка	Container
+Подъём	Wake up
+Позже всё можно поменять во вкладке «Вид».	You can change everything later in the “Look” tab.
+Поиск событий	Search events
+Поиск	Search
+Поиск: bolt, wifi, звук, время…	Search: bolt, wifi, sound, time…
+Пока остров раскрыт	While the island is expanded
+Пока пусто — дождитесь пары уведомлений.	Empty for now — wait for a couple of notifications.
+Пока пусто.	Empty for now.
+Пока сервис острова не запущен, изменения видны только здесь.	Until the island service runs, changes are visible only here.
+Пока тихо	Quiet so far
+Показать границы окна	Show window bounds
+Показать на острове	Show on island
+Показать погоду	Show weather
+Показывать на блокировке	Show on lock screen
+Показывать	Show
+Покачивание	Shake
+Полка пуста	Shelf is empty
+Полка	Shelf
+Положение, dp	Position, dp
+Полоска	Bar
+Полупрозрачный фон, размытие	Translucent background, blur
+Полёт и путь	Travel
+Помодоро	Pomodoro
+Помодоро: работа 25 мин	Pomodoro: work 25 min
+После разблокировки устройства	After unlocking the device
+Поставить на паузу	Pause
+Постоянно, пока заряжается	Always while charging
+Потеря сети	Network lost
+Появление	Appearance
+Правила приложений	App rules
+Превью раскрытого вида	Expanded view preview
+Превью скриншотов.	Screenshot previews.
+Предел авто	Auto limit
+Предпросмотр	Preview
+Предыдущий трек	Previous track
+Пресет меняет оформление всех событий. Включённые события не трогаются.	A preset changes the look of all events. Enabled events stay as they are.
+Пресеты	Presets
+При новом уведомлении	On a new notification
+При отключении питания	When unplugged
+При открытой шторке	When the shade is open
+При подключении питания	When plugged in
+При полностью выключенном экране Android не даёт ничего рисовать, поэтому свечение видно на экране блокировки и при включённом экране.	Android doesn’t allow drawing when the screen is fully off, so the glow is visible on the lock screen and when the screen is on.
+Приватность и время	Privacy and time
+Приватность	Privacy
+Приглушить	Dim
+Призрак	Ghost
+Приложение	App
+Приложения	Apps
+Применить	Apply
+Пример	Example
+Принять и сбросить звонок прямо из острова.	Answer and decline calls right from the island.
+Принять	Answer
+Проверить	Test
+Проводные и беспроводные	Wired and wireless
+Проводные наушники	Wired headphones
+Прогресс пути курьера или машины	Progress of the courier or car
+Прогресс раскрытого	Expanded progress
+Прогресс	Progress
+Прогресс: 	Progress: 
+Продолжить	Resume
+Пропустить	Skip
+Пропущенные	Missed
+Профилей пока нет	No profiles yet
+Профили	Profiles
+Профиль — снимок всех настроек. Можно переключать вручную или по расписанию (например, «Работа» с 9 до 18).	A profile is a snapshot of all settings. Switch manually or on a schedule (e.g. “Work” from 9 to 18).
+Профиль	Profile
+Процент при зарядке	Percent while charging
+Пружина	Spring
+Прыжок	Bounce
+Прятать остров	Hide the island
+Пт	Fri
+Пульс музыки	Music pulse
+Пульс	Pulse
+Пустая пилюля видна, если она включена в «Функции → Пустая пилюля». В раскрытом виде: тап — открыть приложение, свайп вверх — свернуть.	The empty pill is visible if enabled in “Features → Empty pill”. When expanded: tap opens the app, swipe up collapses.
+Пустая пилюля	Empty pill
+Пусто	Empty
+Пятиугольник	Pentagon
+Раз в 15 минут остров проверяет себя: переподключает слушатель уведомлений и присылает уведомление, если Android выключил сервис.	Every 15 minutes the island checks itself: it reconnects the notification listener and notifies you if Android turned the service off.
+Разблокировано	Unlocked
+Разблокировка	Unlock
+Развернуть	Expand
+Развёрнутый, dp	Expanded, dp
+Разговор	In call
+Раздача выключена	Hotspot off
+Раздача интернета	Sharing internet
+Размер	Size
+Размытая обложка	Blurred album art
+Размытие фона	Background blur
+Раскладка	Layout
+Раскрытие	Expanded
+Раскрытый вид	Expanded view
+Раскрыть	Expand
+Расписание	Schedule
+Растворение	Fade
+Режим вибрации	Vibrate mode
+Режим включён	Mode on
+Режим выключен	Mode off
+Режим полёта вкл	Airplane mode on
+Режим полёта выкл	Airplane mode off
+Режим полёта	Airplane mode
+Режим сна и фокуса Digital Wellbeing	Digital Wellbeing bedtime and focus mode
+Режим сна	Bedtime mode
+Режим экономии выключен	Battery Saver is off
+Резервная копия	Backup
+Резкая	Snappy
+Рисовать вокруг камеры	Draw around the camera
+Ровные цифры	Tabular digits
+Ромб	Diamond
+Русский	Русский
+С акцентом	With accent
+С каждой стороны	Each side
+С	From
+Самоцвет	Gem
+Сб	Sat
+Сброс	Reset
+Сбросить все настройки	Reset all settings
+Сбросить статистику	Reset statistics
+Сбросить	Reset
+Свайп вбок — трек, удержание и вверх/вниз — громкость	Swipe sideways — track, hold and up/down — volume
+Свайп вбок	Swipe sideways
+Свайп вверх	Swipe up
+Свайп вниз	Swipe down
+Свайпы, нажатия, удержание	Swipes, taps, long press
+Свернуть	Collapse
+Сверху	From top
+Свет	Light
+Светлый остров в светлой теме	Light island in light theme
+Свечение вокруг камеры	Glow around the camera
+Свечение камеры	Camera glow
+Свечение	Glow
+Свечение, яркие круги, пульс	Glow, bright circles, pulse
+Свой таймер и таймер из Часов	Own timer and Clock timer
+Свой таймер	Own timer
+Свой цвет	Custom color
+Сворачивать через	Collapse after
+Своя	Custom
+Связь снова доступна	Connectivity is back
+Связь	Connectivity
+Сегодня	Today
+Сейчас играет	Now Playing
+Сейчас ничего не происходит	Nothing is happening right now
+Сейчас показано	Showing now
+Секундомер	Stopwatch
+Сервис острова включён, но не отвечает	Island service is on but not responding
+Сервис острова выключен в спецвозможностях	Island service is off in Accessibility
+Сервис острова	Island service
+Сердце	Heart
+Сердцебиение	Heartbeat
+Сеть вернулась	Network is back
+Сильная жара	Extreme heat
+Сильный мороз	Severe frost
+Сильный отскок, упругая	Strong bounce, springy
+Система → Данные	System → Data
+Система → Диагностика	System → Diagnostics
+Система → Ночь	System → Night
+Система → Приложения	System → Apps
+Система	System
+Системное предупреждение	System warning
+Сияние	Aurora
+Сквиркл	Squircle
+Скопировано	Copied
+Скоро будильник	Alarm soon
+Скорость и характер анимации	Animation speed and style
+Скорость приёма и отдачи. Считается раз в секунду, только пока пилюля видна.	Download and upload speed. Measured once a second, only while the pill is visible.
+Скорость сети	Network speed
+Скорость	Speed
+Скриншот	Screenshot
+Скругление	Roundness
+Скрытие	Hiding
+Скрыть 10 мин	Hide 10 min
+Скрыть на 10 минут	Hide for 10 minutes
+Скрыть остров на 10 минут	Hide island for 10 minutes
+Скрыть	Hide
+Слева от камеры	Left of camera
+Слева — пропущенные звонки, справа — непрочитанные сообщения из уведомлений.	Left — missed calls, right — unread messages from notifications.
+Следующая активность	Next activity
+Следующий трек	Next track
+Слушатель уведомлений отключён системой	Notification listener was stopped by the system
+Смотрите на остров ↑	Look at the island ↑
+Снег	Snow
+Снимок экрана сохранён	Screenshot saved
+Событие острова запускает действие. Например: подключил наушники → открыть Spotify.	An island event triggers an action. For example: headphones connected → open Spotify.
+Событие	Event
+События	Events
+Соединение без VPN	Connection without VPN
+Солнце	Sun
+Сон и фокус	Bedtime and focus
+Сообщения	Messages
+Сообщим, если Android его остановит.	We’ll tell you if Android stops it.
+Сообщить, если Android остановит остров.	Notify if Android stops the island.
+Состояние острова	Island status
+Состояние	Status
+Соты	Hexagon
+Сохранить текущие	Save current
+Сохранить	Save
+Специальные возможности	Accessibility
+Сплошной	Solid
+Справа от камеры	Right of camera
+Ср	Wed
+Средний	Medium
+Средняя	Medium
+Стандарт	Standard
+Стандартная иконка события	Default event icon
+Стандартная	Default
+Статика	Static
+Статистика	Statistics
+Стекло	Glass
+Стиль Material	Material style
+Стиль	Style
+Стоп	Stop
+Сторож	Watchdog
+Сумма из уведомлений банков и магазинов	Amount from bank and shop notifications
+Сценариев пока нет	No routines yet
+Сценарии	Routines
+Счёт матча	Match score
+Таймер 5 мин	Timer 5 min
+Таймер не «прыгает»	Timer doesn’t “jump”
+Таймер	Timer
+Таймер, секундомер и помодоро прямо из острова	Timer, stopwatch and pomodoro right from the island
+Таймер, счёт, проценты	Timer, score, percent
+Таймеры и секундомеры	Timers and stopwatches
+Тап по таймеру — пауза	Tap timer to pause
+Тап	Tap
+Тап: 	Tap: 
+Текст и прогресс	Text and progress
+Текст	Text
+Тема острова	Island theme
+Тема применена	Theme applied
+Температура после первой разблокировки утром	Temperature after the first unlock in the morning
+Тень	Shadow
+Тень, свечение, звуки	Shadow, glow, sounds
+Тихий щелчок при раскрытии и сворачивании	Quiet click on expand and collapse
+Тише и темнее ночью	Quieter and darker at night
+То	Then
+Толщина	Thickness
+Только важное	Important only
+Только всплывашки	Pop-ups only
+Только живые активности	Live activities only
+Только иконки	Icons only
+Тональные	Tonal
+Точка доступа вкл	Hotspot on
+Точка доступа выкл	Hotspot off
+Точка доступа	Hotspot
+Точка, пока идёт запись звука	Dot while audio is recorded
+Точка, пока камера занята	Dot while the camera is busy
+Точки	Dots
+Туман	Fog
+Тусклее текст и иконки	Dimmer text and icons
+Убрать	Remove
+Уведомления от острова	Notifications from the island
+Уведомления приложений	App notifications
+Уведомления с прогрессом	Notifications with progress
+Углы	Corners
+Удалить	Delete
+Удержание	Long press
+Удерживайте пилюлю, чтобы сдвинуть. Пунктир — минимальная ширина	Hold the pill to move it. Dashed line — minimum width
+Удерживайте текст или картинку в любом приложении и тащите к острову, пока он виден. Текст и ссылки работают везде; файлы — только из приложений, которые разрешают перенос в другие окна.	Long-press text or an image in any app and drag it to the island while it’s visible. Text and links work everywhere; files only from apps that allow dragging into other windows.
+Узкая	Narrow
+Узко, без подложек, белые иконки	Narrow, no containers, white icons
+Уровень при нажатии кнопок	Level when pressing the buttons
+Устройства поблизости	Nearby devices
+Файл	File
+Файлы и ссылки, брошенные на остров	Files and links dropped on the island
+Физическая активность	Physical activity
+Фон раскрытого	Expanded background
+Фон	Background
+Фон: 	Background: 
+Фонарик выключен	Flashlight off
+Фонарик	Flashlight
+Фонарик, таймеры, полка, скриншот…	Flashlight, timers, shelf, screenshot…
+Форма	Shape
+Формы-цветы, градиент, мягко	Flower shapes, gradient, soft
+Фото	Photos
+Функции → Жесты	Features → Gestures
+Функции → Пустая пилюля	Features → Empty pill
+Функции → Сценарии	Features → Routines
+Функции	Features
+Характер	Character
+Цвет на острове	Color on the island
+Цвет фона и градиент	Background color and gradient
+Цвет фона	Background color
+Цвет	Color
+Цвета Monet, сквирклы, плавно	Monet colors, squircles, smooth
+Цветение	Bloom
+Цветной ореол	Colored halo
+Цветок	Flower
+Частицы	Particles
+Чаще всего	Most often
+Чт	Thu
+Что показывать в покое	What to show when idle
+Чтобы рисовать остров вокруг камеры.	To draw the island around the camera.
+Чтобы рисовать остров поверх статус-бара.	To draw the island over the status bar.
+Чтобы система не останавливала остров в фоне.	So the system doesn’t stop the island in the background.
+Чёрный	Black
+Чёрный, упругий, как привыкли	Black, springy, as you’re used to
+Шаги в пустой пилюле.	Steps in the empty pill.
+Шаги	Steps
+Шапка с названием приложения	Header with the app name
+Шапка	Header
+Ширина «Широкая» из Вид → Размер.	“Wide” width from Look → Size.
+Ширина и высота пилюли	Pill width and height
+Ширина пилюли	Pill width
+Ширина подстраивается под текст и иконки — всё помещается. Пределы задаются во вкладке Вид → Размер.	Width adapts to text and icons — everything fits. Limits are set in Look → Size.
+Ширина раскрытого	Expanded width
+Ширина	Width
+Ширина, dp с каждой стороны	Width, dp on each side
+Ширина: 	Width: 
+Широкая	Wide
+Шкала при ручной смене яркости	Scale when changing brightness manually
+Эквалайзер	Equalizer
+Экономия батареи	Battery Saver
+Экономия	Saver
+Экспорт	Export
+Элементы	Elements
+Энергия	Energy
+Энергосбережение вкл	Battery Saver on
+Энергосбережение выкл	Battery Saver off
+Эфир	Ether
+Эффекты	Effects
+Язык	Language
+Яркость	Brightness
+Ясно	Clear
+событий показано	events shown
+открыть шторку	open the shade
+положить на полку	put on the shelf
+раскрыть событие	expand the event
+спрятать остров на 10 минут	hide the island for 10 minutes
+все события списком	all events as a list
+фонарик	flashlight
+работает	running
+не работает	not running
+не запущен	not running
+нет	no
+подключены	connected
+подключён	connected
+Словами	In words
+Галочка	Check mark
+Галочка в круге	Check in a circle
+Вкл / Выкл в пилюле	On / Off in the pill
+«Галочка» показывает ✓ вместо «Вкл», «Подключено» и перечёркнутую галочку вместо «Выкл», «Отключено».	“Check mark” shows ✓ instead of “On”, “Connected” and a crossed-out check instead of “Off”, “Disconnected”.
+Пилюля с событием	Pill with an event
+Найти настройку или событие	Find a setting or event
+Ничего не найдено	Nothing found
+Все события	All events
+Звонок	Call
+Через 300 м налево	Turn left in 300 m
+Курьер в пути	Courier on the way
+Таймер	Timer
+Разблокировано	Unlocked
+Нет сети	No network
+Скрыть 10 мин	Hide 10 min
+Оттенок	Tint
+Свой цвет	Custom color
+Голосовое	Voice message
+Сторож	Watchdog
+Входящий звонок	Incoming call
+Принять	Answer
+Отклонить	Decline
+Завершить	End
+Перейти	Go to
+Профиль	Profile
+Все	All
+Отчёт	Report
+Пресеты	Presets
+Калибровка	Calibration
+Повернуть экран?	Rotate screen?
+Дождь через 45 мин	Rain in 45 min
+Заряд 20%	Battery 20%
+Заряд 10%	Battery 10%
+Сеть	Network
+Wi‑Fi	Wi‑Fi
+Профили	Profiles
+Сохранить	Save
+Включить	Turn on
+Расписание	Schedule
+Новый сценарий	New routine
+Приложение	App
+Курс	Rate
+Пропущенные	Missed
+Скорость сети	Network speed
+Как в системе	System default
+English	English
+Полка пуста	Shelf is empty
+Отпустите здесь	Drop here
+Очистить	Clear
+Быстрые действия	Quick actions
+Добро пожаловать	Welcome
+Android блокирует эти разрешения для приложений из APK. Откройте «О приложении» → ⋮ → «Разрешить ограниченные настройки», затем вернитесь сюда.	Android blocks these permissions for apps installed from an APK. Open “App info” → ⋮ → “Allow restricted settings”, then come back here.
+В покое перерисовка должна быть около 0 кадр/с. Если остров свёрнут и ничего не анимирует, а цифра большая — это ошибка, пришлите отчёт.	When idle, redraws should be about 0 fps. If the island is collapsed and nothing animates but the number is high, it’s a bug — please send a report.
+Отсканируйте QR камерой (Google Lens скопирует текст) или отправьте код — получатель вставит его через «Вставить тему». Включённые события и калибровка не передаются.	Scan the QR with the camera (Google Lens copies the text) or send the code — the recipient pastes it via “Paste theme”. Enabled events and calibration aren’t shared.
+Аня · голосовое	Anna · voice message
+Созвон с командой	Team call
+Чай	Tea
+Второй тайм	Second half
+Центр X	Center X
+может ограничивать	may restrict
+не ограничивает	doesn’t restrict
+большое	large
+компактное	compact
+общая	general
+общее	general
+общие	general
+Заказ №1284	Order #1284
+Ты уже дома? Я купила тот самый торт 🎂	Are you home yet? I bought that cake 🎂
