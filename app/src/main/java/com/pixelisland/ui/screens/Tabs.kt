@@ -315,6 +315,34 @@ fun SystemTab(start: Int = 0, permissions: @Composable () -> Unit) {
                 DiagnosticsView()
             }
             7 -> {
+                UpdateCard()
+                SectionCard("Обновления") {
+                    val checking by com.pixelisland.core.Updater.checking.collectAsState()
+                    val avail by com.pixelisland.core.Updater.available.collectAsState()
+                    val err by com.pixelisland.core.Updater.error.collectAsState()
+                    var auto by remember { mutableStateOf(com.pixelisland.core.Updater.autoCheck(ctx)) }
+                    SwitchRow("Проверять автоматически", "Раз в сутки, с GitHub", auto) { auto = it; com.pixelisland.core.Updater.setAutoCheck(ctx, it) }
+                    GroupBox {
+                        val last = com.pixelisland.core.Updater.lastCheck(ctx)
+                        Text(
+                            "Установлена ${com.pixelisland.core.Updater.currentName(ctx)}" +
+                                when {
+                                    checking -> " · проверяю…"
+                                    avail != null -> " · есть ${avail!!.name}"
+                                    last > 0 -> " · это последняя"
+                                    else -> ""
+                                },
+                            style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(horizontal = 16.dp),
+                        )
+                        err?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error, modifier = Modifier.padding(horizontal = 16.dp)) }
+                        Row(Modifier.padding(horizontal = 12.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            FilledTonalButton(onClick = { com.pixelisland.core.Updater.maybeCheck(ctx, force = true, notify = false) }, enabled = !checking) { Text("Проверить обновления") }
+                            androidx.compose.material3.TextButton(onClick = {
+                                runCatching { ctx.startActivity(android.content.Intent(android.content.Intent.ACTION_VIEW, android.net.Uri.parse(com.pixelisland.core.Updater.PAGE_URL))) }
+                            }) { Text("GitHub") }
+                        }
+                    }
+                }
                 SectionCard("Язык") {
                     ChipRow(com.pixelisland.settings.AppLanguage.entries, s.language, com.pixelisland.settings.AppLanguage::label) { v -> set { copy(language = v) } }
                 }
@@ -332,7 +360,7 @@ fun SystemTab(start: Int = 0, permissions: @Composable () -> Unit) {
                 OutlinedButton(onClick = { SettingsStore.reset() }, modifier = Modifier.fillMaxWidth()) {
                     Icon(Icons.Rounded.RestartAlt, null, Modifier.size(18.dp)); Spacer(Modifier.width(6.dp)); Text("Сбросить все настройки")
                 }
-                Hint("Остров 0.9.3 · плитка для быстрых настроек есть в списке плиток шторки, виджет — в списке виджетов")
+                Hint("Остров 0.9.4 · плитка для быстрых настроек есть в списке плиток шторки, виджет — в списке виджетов")
             }
         }
     }
@@ -430,7 +458,7 @@ fun DiagnosticsView() {
     }
     val pm = ctx.getSystemService(android.os.PowerManager::class.java)
     val batteryOk = pm.isIgnoringBatteryOptimizations(ctx.packageName)
-    val report = """Остров 0.9.3 · Android ${android.os.Build.VERSION.RELEASE} · ${android.os.Build.MODEL}
+    val report = """Остров 0.9.4 · Android ${android.os.Build.VERSION.RELEASE} · ${android.os.Build.MODEL}
 Сервис острова: ${if (alive) "работает" else "не запущен"}; уведомления: ${if (listener) "подключены" else "нет"}
 Окно: ${if (large) "большое" else "компактное"}; состояние: ${pres::class.simpleName}; активностей: ${visible.size}
 Перерисовка острова: $fps кадр/с; память: $mem МБ; экономия батареи: ${if (batteryOk) "не ограничивает" else "может ограничивать"}"""

@@ -112,6 +112,7 @@ class MainActivity : ComponentActivity() {
         com.pixelisland.core.Automations.init(this)
         com.pixelisland.core.Profiles.init(this)
         com.pixelisland.core.Watchdog.schedule(this)
+        com.pixelisland.core.Updater.maybeCheck(this, notify = false)
         if (intent?.action == "com.pixelisland.TOGGLE") {
             SettingsStore.update { copy(enabled = !enabled) }
             com.pixelisland.service.IslandWidget.refresh(this)

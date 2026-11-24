@@ -48,6 +48,7 @@ object Watchdog {
 
     fun check(c: Context) {
         SettingsStore.init(c)
+        Updater.maybeCheck(c)   // раз в сутки, сам решает, пора ли
         val p = c.getSharedPreferences("watchdog", Context.MODE_PRIVATE)
         if (listenerEnabled(c) && !IslandRuntime.listenerAlive.value) {
             runCatching { NotificationListenerService.requestRebind(ComponentName(c, MediaListenerService::class.java)) }

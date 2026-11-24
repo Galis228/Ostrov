@@ -335,7 +335,7 @@ Wi‑Fi подключён	Wi‑Fi connected
 Округлая	Rounded
 Особые жесты	Special gestures
 Острая	Sharp
-Остров 0.9.3 · плитка для быстрых настроек есть в списке плиток шторки, виджет — в списке виджетов	Island 0.9.3 · the Quick Settings tile is in the shade’s tile list, the widget is in the widget list
+Остров 0.9.4 · плитка для быстрых настроек есть в списке плиток шторки, виджет — в списке виджетов	Island 0.9.4 · the Quick Settings tile is in the shade’s tile list, the widget is in the widget list
 Остров виден всегда, даже без событий	Island is always visible, even without events
 Остров включён	Island is on
 Остров выключен	Island is off
@@ -819,3 +819,16 @@ Android блокирует эти разрешения для приложени
 общие	general
 Заказ №1284	Order #1284
 Ты уже дома? Я купила тот самый торт 🎂	Are you home yet? I bought that cake 🎂
+Обновления	Updates
+Доступна новая версия	New version available
+Нажмите, чтобы обновить	Tap to update
+Обновить	Update
+Разрешить установку	Allow installing
+В браузере	In browser
+Один раз разрешите Острову устанавливать приложения — дальше обновление будет в одно нажатие. Настройки сохранятся.	Allow Island to install apps once — after that updates take one tap. Your settings are kept.
+Проверять автоматически	Check automatically
+Раз в сутки, с GitHub	Once a day, from GitHub
+Проверить обновления	Check for updates
+Не удалось проверить: нет связи с GitHub	Couldn’t check: no connection to GitHub
+Не удалось скачать. Попробуйте открыть в браузере.	Download failed. Try opening it in the browser.
+Не удалось открыть установщик	Couldn’t open the installer

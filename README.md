@@ -5,7 +5,7 @@ Dynamic Island для телефонов Google Pixel: живая пилюля �
 
 ## Скачать
 
-**[⬇ Ostrov.apk — версия 0.9.3](https://github.com/Galis228/ostrov/raw/main/apk/Ostrov.apk)** (Android 12+)
+**[⬇ Ostrov.apk — версия 0.9.4](https://github.com/Galis228/ostrov/raw/main/apk/Ostrov.apk)** (Android 12+)
 
 После установки: «О приложении» → ⋮ → «Разрешить ограниченные настройки», затем включите остров
 в «Специальных возможностях» и дайте доступ к уведомлениям.

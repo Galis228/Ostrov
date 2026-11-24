@@ -29,6 +29,7 @@ import androidx.compose.material.icons.rounded.Layers
 import androidx.compose.material.icons.rounded.Palette
 import androidx.compose.material.icons.rounded.Search
 import androidx.compose.material.icons.rounded.Warning
+import androidx.compose.material.icons.rounded.SystemUpdate
 import androidx.compose.material.icons.rounded.BarChart
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -159,6 +160,8 @@ fun HomeTab(go: (Dest) -> Unit) {
             }
         }
 
+        UpdateCard()
+
         // ---- Быстрые переключатели ----
         SectionCard("Быстро") {
             GroupBox {
@@ -239,5 +242,51 @@ private fun HomeTile(icon: ImageVector, title: String, modifier: Modifier, onCli
             Icon(icon, null, tint = MaterialTheme.colorScheme.onSecondaryContainer)
         }
         Text(title, style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(top = 4.dp), maxLines = 1)
+    }
+}
+
+/** Карточка «Доступна новая версия» — только когда она есть. */
+@Composable
+fun UpdateCard() {
+    val ctx = LocalContext.current
+    val u by com.pixelisland.core.Updater.available.collectAsState()
+    val prog by com.pixelisland.core.Updater.progress.collectAsState()
+    val err by com.pixelisland.core.Updater.error.collectAsState()
+    val info = u ?: return
+    Card(
+        shape = RoundedCornerShape(28.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.tertiaryContainer),
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Column(Modifier.padding(18.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Icon(androidx.compose.material.icons.Icons.Rounded.SystemUpdate, null, modifier = Modifier.size(26.dp))
+                Spacer(Modifier.width(12.dp))
+                Column(Modifier.weight(1f)) {
+                    Text("Доступна новая версия", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+                    Text("${com.pixelisland.core.Updater.currentName(ctx)} → ${info.name}", style = MaterialTheme.typography.bodySmall)
+                }
+            }
+            if (info.notes.isNotEmpty()) {
+                Spacer(Modifier.height(8.dp))
+                info.notes.take(6).forEach { Text("• $it", style = MaterialTheme.typography.bodySmall) }
+            }
+            Spacer(Modifier.height(10.dp))
+            val p = prog
+            if (p != null) {
+                androidx.compose.material3.LinearWavyProgressIndicator(progress = { p }, modifier = Modifier.fillMaxWidth())
+                Text("Скачивание… ${(p * 100).toInt()}%", style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(top = 4.dp))
+            } else Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                androidx.compose.material3.Button(onClick = {
+                    if (com.pixelisland.core.Updater.canInstall(ctx)) com.pixelisland.core.Updater.downloadAndInstall(ctx, info)
+                    else com.pixelisland.core.Updater.openInstallPermission(ctx)
+                }) { Text(if (com.pixelisland.core.Updater.canInstall(ctx)) "Обновить" else "Разрешить установку") }
+                TextButton(onClick = { com.pixelisland.core.Updater.openInBrowser(ctx, info) }) { Text("В браузере") }
+            }
+            err?.let { Text(it, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.error, modifier = Modifier.padding(top = 4.dp)) }
+            if (!com.pixelisland.core.Updater.canInstall(ctx) && p == null)
+                Text("Один раз разрешите Острову устанавливать приложения — дальше обновление будет в одно нажатие. Настройки сохранятся.",
+                    style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(top = 6.dp))
+        }
     }
 }
